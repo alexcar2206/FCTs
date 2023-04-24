@@ -40,3 +40,13 @@ Patrones de diseño(definición y objetivos)
 - Strategy: Nos permite definir una familia de algoritmos y encapsular cada uno de ellos, los hace intercambiables entre sí. Permite que el algoritmo varíe independientemente de los clientes que lo utilizan
 - Template Method: Nos permite definir el esqueleto de un algoritmo en una operación, aplazando algunos pasos a las subclases. Permite a las subclases definir ciertos pasos de un algoritmo sin cambiar la estructura del algoritmo
 - Visitor: Puede representar una operacion a realizar en los elementos de la estructura de un objeto, además permite definir una nueva operación sin cambiar las clases de los elementos sobre los que opera
+### 4ª Sesión(Curso: SOLID y patrones de diseño//Introducción a C++)
+#### Antipatrones de diseño:
+- Que es?: Es un patrón de diseño que invariablemente conduce a mala solución para un problema
+- Antipatrones metodológivos: Bala de plata, tester driver development, de-factoring, improbability factor, golden hammer, premature optimization, progamming by permutation, reinventing the wheel, reinventing the square wheel.
+- Code Smells: Es cualquier sintoma en el código fuente de un programa que indica un problema más profundo
+
+#### Introducción a C++:
+- Introducción a C++(tipos de datos, entradas y salidas de código, funciones matemáticas, concatenación, etc)
+- Práctica de código(muestra de ello en la carpeta "\Ejercicios")
+
