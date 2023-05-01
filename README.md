@@ -50,3 +50,7 @@ Patrones de diseño(definición y objetivos)
 - Introducción a C++(tipos de datos, entradas y salidas de código, funciones matemáticas, concatenación, etc)
 - Práctica de código(muestra de ello en la carpeta "\Ejercicios")
 
+### 5ª Sesión(Curso: Introducción a la programación con Pseudocódigo)
+- Continuación del curso "Introducción a la programación con pseudocódigo" y práctica de ella
+- Ejercicios realizados de: Estructuras secuenciales, alternativas y repetitivas (Prueba de ello en la carpeta "\Ejercicios\Pseudocódigo") 
+
