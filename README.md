@@ -52,5 +52,10 @@ Patrones de diseño(definición y objetivos)
 
 ### 5ª Sesión(Curso: Introducción a la programación con Pseudocódigo)
 - Continuación del curso "Introducción a la programación con pseudocódigo" y práctica de ella
-- Ejercicios realizados de: Estructuras secuenciales, alternativas y repetitivas (Prueba de ello en la carpeta "\Ejercicios\Pseudocódigo") 
+- Ejercicios realizados de: Estructuras secuenciales, alternativas y repetitivas (Prueba de ello en la carpeta "\Ejercicios\Pseudocódigo")
+### 6ª Sesión(Curso: Introducción a la programación con Pseudocódigo|| Programación orientada a objetos con C++)
+- Continuación del curso "Introducción a la programación con pseudocódigo" y práctica de ella
+- Ejercicios realizados de: Estructuras de arreglos y funciones (Prueba de ello en la carpeta "\Ejercicios\Pseudocódigo") 
+- Inicializacion del curso "Progamación orientada a objetos"
+- Temas vistos: Memoria(Stack, Heap, Puntero), Estructura de datos(Struct, Union, Enum) 
 
