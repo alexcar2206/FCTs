@@ -58,4 +58,66 @@ Patrones de diseño(definición y objetivos)
 - Ejercicios realizados de: Estructuras de arreglos y funciones (Prueba de ello en la carpeta "\Ejercicios\Pseudocódigo") 
 - Inicializacion del curso "Progamación orientada a objetos"
 - Temas vistos: Memoria(Stack, Heap, Puntero), Estructura de datos(Struct, Union, Enum) 
+### 7ª Sesión(Capturas de los ejercicios realizados en la carpeta "/Ejercicios/C++")
+####  Programación orientada a objetos con C++
+##### Clases
+- Las clases se puden instanciar en heap o en stack, en los 2 métodos hay que llamar al constructor de ella
+- Pueden contener cualquier tipo de atributo e ellas
+- Dentro de las clases los atributos o funciones pueden ser de varios tipos: public, private, protected o friend
+- Las clases tienen los llamados constructores y pueden tener tambien destructores, además de funciones
+- La única diferencia entre un struct y una class es que por defecto todos los atributos y funciones en un struct son publicos mientras que en una clase son privados
+##### Herencia
+- Una clase puede heredar de una clase padre todos sus atributos y funciones public y protected
+- Para que una clase pueda sobrecargar metodos de su clase padre los métodos deben de ser "virtual"
+- Al ser una clase "protected" deja acceso a sus atributos y funciones solo a aquellas clases que hereden de ella
+- Con Friend una clase da acceso a sus métodos y atributos solo a la clase que así se especifique en ella
+- El polimorfismo es la cualidad por la que un objeto de una clase que hereda de otra
+puede ser usado como un objeto de la clase padre.
+
+#### Programación genérica y concurrente de C++
+
+##### Macros
+- Son directivas que nos permiten la sustitución de un código por otro, precedente a la compilación del códig
+##### Templates
+- Son una herramientas que nos permite generar o expandir código en tiempo de compilación
+- Diferencias Macro vs Templates: Las macro son sustitución de código mientras que las templates son generación de él
+##### Thread
+- Es una clase que se usa para la ejecución de códigi concurrente
+- Control de flujo: Mutex; se utiliza para la gestión de recursos, funcionan como una bandera( muy parecido a los readonly object que se utilizan con los lock de c# en mi opinion), Atomic(operaciones atómicas); es una encapsulación que nos certifica que cualquier modificación que hagamos no se va a ver afectada por ningún otro proceso o ningún otro thread
+##### Procesos
+- Son dependientes del sistema operativo, son procesos pesados,no comparten memoria, hay que cominicarlos expresamente
+
+#### Patrones e interfaces
+##### STL
+- Contenedores secuenciales: son estructuras de datos para guardar los datos de una forma específica, guarda elementos secuencialmente
+- Contenedores asociativos: son contenedores no secuenciales usando el acceso a elementos por clave
+- Iteradores: son punteros para acceder individualmente a los elementos de un contenedor independientemente del tipo que sea
+- SmartPointers: son punteros inteligentes que no se necesita liberar la memoria antes de destruirlo.
+##### Patrones de diseño
+- Clase abastracta: se utilizan para generar una interfaz en la que tenemos unas funciones que nos permitirán reutilizar la interfaz y nos permiten una abstracción para poder implementarla de diferentes formas
+- Clase abstracta mixta: no todas sus funciones son virtuales puras, no se puede crear instancia de ella, implementa código común para todas sus clases
+derivadas y es habitual en componentes diseñados para ser incorporados al código fuente del sistema.
+- Clase abstracta pura o interfaz:  se llaman interfaces porque no tienen ningún método implementado y todos sus atributos son constantes
+##### Patrones de diseño
+- Sirven para solucionar problemas problemas comunes en el diseño de software y puedes combinar diferentes patrones para tu problema
+- Patrones creacionales: Singleton; Se debe decidir de usar cuando el dueño de la instancia no puede ser razonablemente asignado o es deseable una inicialización perezosa(lazy initialization), Factory Method; define una interfaz para la creación de un objeto, pero son las subclases las que deciden cual crear
+- Patrones estructurales: Composite; compone objetos en una estructura de árbol a partirde objetos más simples, Decorator; permite añadir responsabilidades adicionales a un objeto dinámicamente
+- Patrones de comportamiento: Observer; define dependencias uno a muchos, cuando un objeto cambia su estado, notifica a todos sus dependencias, viene siendo la vista en el modelo vista-controlador
+#### Curso de Git
+
+##### Herramientas de trabajo
+- Instalación y configuración de las herramientas necesarias para el entorno de trabajo
+##### Organización del código fuente y otros elementos del proyecto
+- Inicialización de un repositorio GIT y su aprobación
+- Visualizar cambios en el working directory y aprobarlos a nuestro repositorio
+- Compartir cambios en nuestro repositorio con otras personas y combinar sus cambios dentro de nuestro repositorio
+- Gestión de los repositorios y su histórico de cambios
+- Resolver conflictos con merge
+##### Flujos de trabajo
+- Branches(Ramas): Una rama permite trabajar, de forma efectiva, en un working directory completamente nuevo
+- Explorar diferentes formas para encontrar en qué commit se introdujo un determinado problema
+-  Reescribir la historiade Git usando el comando rebase para reestructurar los commits y asegurarnos de que son comprensibles antes de subir los cambios
+-  Etiquetar puntos especificos del historial como importantes
+-  Moverse en “el tiempo” entre la historia de cambios
+
 
