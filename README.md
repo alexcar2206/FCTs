@@ -120,6 +120,6 @@ derivadas y es habitual en componentes diseñados para ser incorporados al códi
 -  Etiquetar puntos especificos del historial como importantes
 -  Moverse en “el tiempo” entre la historia de cambios
 ### 8ª Sesión
-- Finalizados los examenes(a excepcion del de POO, no me dejó hacerlo hoy)
+- Finalizados los examenes
 - Subidos los ejercicios restantes de los cursos
 
